@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\comm">
+      <UniqueIdentifier>{61657044-3914-4c8f-87d0-661957fcfa72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\memory">
+      <UniqueIdentifier>{2e3c9e51-fd15-4e69-9768-db142b05037b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{99a8cc1e-415f-4761-b08d-8b97ef5f4514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderer">
+      <UniqueIdentifier>{22163c23-792e-4a08-9649-c59fd956a87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{5c7aa84e-3fc5-4f16-b11c-9e0fd0ad0d48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comm.cpp">
+      <Filter>Header Files\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Header Files\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Header Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Header Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Header Files\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comm.h">
+      <Filter>Header Files\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="hexrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
